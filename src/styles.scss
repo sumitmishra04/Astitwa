@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@import './variables';
+@import './components';
+
+*,::after, ::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%; 
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: $color-grey-dark;
+    overflow-x: hidden;
+
+}
+.row{
+    margin-left: 0px; 
+}
